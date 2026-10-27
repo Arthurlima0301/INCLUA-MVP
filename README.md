@@ -15,7 +15,25 @@ O objetivo é promover acessibilidade, autonomia, segurança e inclusão, facili
 - Python
 
 ## Telas
+### Tela 1 — Cadastro
+Cadastro de usuário ou prestador de serviço.
+- Nome e dados básicos.
+- Tipo de conta.
+- Especialidade, se for prestador.
+- Ao concluir, direciona para a tela correspondente.
 
+### Tela 2 — Solicitação do usuário
+Uma experiência semelhante à solicitação de uma corrida.
+- Origem e destino.
+- Tipo de assistência.
+- Botão para solicitar.
+- Após a aceitação, exibe o nome do prestador e o tempo estimado de chegada.
+
+### Tela 3 — Prestador de serviço
+Uma central simples de solicitações recebidas.
+- Visualiza os dados da solicitação.
+- Pode aceitar ou recusar.
+- Ao aceitar, o sistema informa o usuário.
 
 ## Estrutura de Pastas
 ```
@@ -25,7 +43,7 @@ O objetivo é promover acessibilidade, autonomia, segurança e inclusão, facili
 │   └── /routes
 ├── /front-end
 │    ├── /css
-│    ├── /index.html
+│    ├── index.html
 │    └── /js
 └── README.md
 ```
